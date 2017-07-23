@@ -1,6 +1,9 @@
 <div class="search-widget">
-  <form>
+  <form
+    novalidate
+    id="productSearch">
     <input
+      class="search_query"
       type="text"
       placeholder="Search..."
       name="serach"
@@ -11,5 +14,17 @@
       S
     </button>
   </form>
+  <div class="autocomplete-results">
+    <span class="empty-set">
+      No results found
+    </span>
+    <ul>
+      <li>
+        <a href="">
+          one match
+        </a>
+      </li>
+    </ul>
+  </div>
 
 </div>
