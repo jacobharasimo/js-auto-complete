@@ -1,0 +1,3 @@
+export {ProductAutocomplete} from './productAutocomplete';
+
+
