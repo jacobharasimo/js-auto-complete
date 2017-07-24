@@ -5,10 +5,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title></title>
+  <!--since i am just making the widget, make it responsive to its wrapper-->
+  <style>
+    .wrapper {
+      background:lightgrey;
+      margin:0 auto;
+      width: 500px;
+      border: 1px solid #efefef;
+      padding: 2em;
+    }
+
+  </style>
 </head>
 <body>
-  <product-autocomplete>
-
-  </product-autocomplete>
+<div class="wrapper">
+  <product-autocomplete/>
+</div>
+<script type="text/javascript">
+  window.api = {
+    token: 'MDoxMGZmNGI2OC0xOTgwLTExZTctODIzYS1hZjBjOTQxMDg5ZTQ6UDY3T3hsM2NUdlpSOHpoYzJUVlFrODZOUG9obUI5N1NxV2Rp',
+    url: 'http://lcboapi.com/products'
+  };
+</script>
 </body>
 </html>
